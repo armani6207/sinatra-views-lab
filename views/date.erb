@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <% wday = Date::DAYNAMES[Date.today.wday] %>
+    <% mname = Date::MONTHNAMES[Date.today.month] %>
+    <% ddate = Date.today.day %>
+    <% year = Date.today.year %>
+
+    <h1><%= "The date is #{wday}, #{mname} #{ddate}, #{year}" %></h1>
+</html>
